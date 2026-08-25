@@ -9,6 +9,7 @@
     'depends': [
         'base', 'web'
     ],
+    'images': ['static/description/banner.png'],
     'assets': {
         'web.report_assets_common': [
             'reshape_mm_font_pdf/static/src/css/report_style.css',
