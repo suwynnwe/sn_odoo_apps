@@ -1,0 +1,28 @@
+/* Regular Font */
+@font-face {
+    font-family: 'Pyidaungsu';
+    src: url('/reshape_mm_font_pdf/static/src/fonts/Pyidaungsu_Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold Font */
+@font-face {
+    font-family: 'Pyidaungsu';
+    src: url('/reshape_mm_font_pdf/static/src/fonts/Pyidaungsu_Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Numbers Font (ဂဏန်းများအတွက်) */
+@font-face {
+    font-family: 'PyidaungsuNumbers';
+    src: url('/reshape_mm_font_pdf/static/src/fonts/Pyidaungsu_Numbers.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global Applied Elements */
+body, table, td, th, span, div, p, strong, b, h1, h2, h3, h4 {
+    font-family: 'Pyidaungsu', 'PyidaungsuNumbers', sans-serif !important;
+}
