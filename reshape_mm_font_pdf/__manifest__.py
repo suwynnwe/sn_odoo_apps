@@ -4,11 +4,14 @@
     'version': '18.0.1.0.0',
     'license': 'LGPL-3',
     'category': 'Tools',
-    'author': 'S.W.Nwe',
+    'author': 'S.W.Nwe<suwynnwe@gmail.com>',
     'summary': 'Base module for Myanmar font rendering in qweb report',
     'depends': [
         'base', 'web'
     ],
+    'external_dependencies': {
+        'python': ['bs4'],
+    },
     'images': ['static/description/banner.png'],
     'assets': {
         'web.report_assets_common': [

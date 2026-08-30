@@ -1,10 +1,38 @@
 <section class="oe_container">
     <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan" style="color: #875A7B;">Myanmar Font Reshaper for PDF</h2>
-        <h3 class="oe_slogan">Reshape Myanmar Unicode Fonts correctly in Odoo PDF Reports</h3>
+        <h2 class="oe_slogan" style="color: #875A7B;">
+            Myanmar Font Reshaper for PDF
+        </h2>
+
+        <h3 class="oe_slogan">
+            Fix Myanmar Unicode rendering in Odoo PDF Reports
+        </h3>
+
         <div class="oe_span12">
             <p class="oe_mt32">
-                This module fixes Myanmar Unicode font rendering issues (broken characters/letters) when generating PDF reports in Odoo 18.0.
+                Fixes Myanmar Unicode character ordering and rendering
+                issues in Odoo 18.0 QWeb PDF reports.
+            </p>
+
+            <h4>Features</h4>
+            <ul>
+                <li>Myanmar Unicode character reshaping</li>
+                <li>Fixes broken Myanmar letters in PDF reports</li>
+                <li>Supports KinZi, medial characters and subjoined consonants</li>
+                <li>Improves Myanmar font rendering in QWeb reports</li>
+            </ul>
+
+            <h4>External Dependency</h4>
+            <p>
+                Requires <strong>BeautifulSoup4 (bs4)</strong>.
+            </p>
+
+            <pre><code>pip install beautifulsoup4</code></pre>
+
+            <p>
+                <strong>Odoo:</strong> 18.0
+                &nbsp; | &nbsp;
+                <strong>License:</strong> LGPL-3
             </p>
         </div>
     </div>

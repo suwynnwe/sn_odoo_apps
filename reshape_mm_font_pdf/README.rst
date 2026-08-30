@@ -42,4 +42,4 @@ Reference & Acknowledgements
 
 Maintainers
 -----------
-This module is maintained by S.W.Nwe.
+This module is maintained by S.W.Nwe <suwynnwe@gmail.com>.
