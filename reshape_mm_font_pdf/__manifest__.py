@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Reshape Myanmar Font in PDF',
-    'version': '16.0.1.0.0',
+    'version': '17.0.1.0.0',
     'license': 'LGPL-3',
     'category': 'Tools',
     'author': 'S.W.Nwe<suwynnwe@gmail.com>',
